@@ -91,9 +91,9 @@ if (!condition)
 * Factory [UIFactory](Assets/Scripts/UIFactory/)
 * [Dependency Injector](Assets/Scripts/DependencyInjector/)
 * Builder [InteractiveTutorial](Assets/Scripts/InteractiveTutorial/)
-* Wrapper [UIFactory/ButtonsActions/Wrappers](Assets/Scripts/UIFactory/UI\ButtonsActions/Wrappers/ButtonActionWithClickSoundWrapper.cs)
+* Wrapper [UIFactory/ButtonsActions/Wrappers](Assets/Scripts/UIFactory/UI%20ButtonsActions/Wrappers/ButtonActionWithClickSoundWrapper.cs)
 * Strategy [UIFacotry/AnimtaionControllers](Assets/Scripts/UIFactory/UI%20Elements/AnimationControllers/Strategies), [Ball/SpecialBalls](Assets/Scripts/Ball/Special%20Balls/)
-* Command [UIFactory/ButtonsActions](Assets/Scripts/UIFactory/)
+* Command [UIFactory/ButtonsActions](Assets/Scripts/UIFactory/UI%20ButtonsActions)
 
 #### О паттерне Factory
 Это не чистый Factory, а скорее некий гибрид, ибо он выполняет не только функцию создания, но и управляет, созданными UI.
