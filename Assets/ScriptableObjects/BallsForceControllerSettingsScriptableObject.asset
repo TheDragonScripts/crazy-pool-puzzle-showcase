@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df60d450a2cc8174281ef2912b2af631, type: 3}
+  m_Name: BallsForceControllerSettingsScriptableObject
+  m_EditorClassIdentifier: Assembly-CSharp::BallsMovement.BallsForceControllerSettingsScriptableObject
+  _minForce: 100
+  _maxForce: 1000
+  _forceIncrementer: 1

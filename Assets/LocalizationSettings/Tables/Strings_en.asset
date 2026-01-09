@@ -1,0 +1,478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Strings_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 16ca7786ecf6c774e98957a169e1d0ca, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6107710411087544623
+  m_TableData:
+  - m_Id: 1011576532992
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11152883511296
+    m_Localized: Balls used {0}
+    m_Metadata:
+      m_Items:
+      - rid: 6107710411087544623
+  - m_Id: 1341769600528384
+    m_Localized: LEVELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341895517728768
+    m_Localized: THEMES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341985502326784
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342064250384384
+    m_Localized: ABOUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342275899158528
+    m_Localized: LEVEL COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342404001591296
+    m_Localized: NEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342609442795520
+    m_Localized: REPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342684495671296
+    m_Localized: MAIN MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342849277292544
+    m_Localized: LEVEL FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342988175863808
+    m_Localized: 2 EXTRA BALLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343512136708096
+    m_Localized: All balls was colored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343697877266432
+    m_Localized: Eight ball was not touched last
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343932074618880
+    m_Localized: No moves left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344294038859776
+    m_Localized: SUPPORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344476092624896
+    m_Localized: "Gornostai Studio, 2024, \nAll rights reserved"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344732595286016
+    m_Localized: MUTE MUSIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344871472885760
+    m_Localized: RANDOM BALLS IN STASH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345025072492544
+    m_Localized: Attention!  Some levels may become incompletable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345514770067456
+    m_Localized: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345610161123328
+    m_Localized: RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1346005038067712
+    m_Localized: Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11455905533587456
+    m_Localized: FLIP BOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13783314383564800
+    m_Localized: CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415271922397184
+    m_Localized: Welcome to our puzzle game! We created it so that you can relax
+      and escape from everyday worries. We hope you enjoy it! Let's briefly tell
+      you about the main features of the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415568849760256
+    m_Localized: "The game uses an energy system:\n\n\u2022 Each level launch consumes
+      a certain amount of energy.\n\n\u2022 If the energy runs out, you can replenish
+      half of its maximum by watching an ad.\n\n\u2022 Energy is also restored gradually
+      - a little at a time every real hour.\n\n\u2022 Restarting a level does not
+      consume energy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17397945136115712
+    m_Localized: MUTE SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17398055077212160
+    m_Localized: MUTE UI CLICK SOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018285449179136
+    m_Localized: STANDART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018425685733376
+    m_Localized: Contains ambient music, board, uncolored, colored balls & eight
+      ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048553073569792
+    m_Localized: SILENT MOON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048555107807232
+    m_Localized: Contains ambient music, board, uncolored, colored balls & eight
+      ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054358837555200
+    m_Localized: PURCHASE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054442136432640
+    m_Localized: SELECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054579772518400
+    m_Localized: SELECTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471026424344576
+    m_Localized: No moves left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471335582298112
+    m_Localized: Eight ball was not touched one of the last
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589247210680320
+    m_Localized: MYSTERIOUS PINK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589457571803136
+    m_Localized: Contains ambient music, board, uncolored, colored balls & eight
+      ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19941728461582336
+    m_Localized: Shop is unavailable right now. Please, come back later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20163294449430528
+    m_Localized: Crazy Pool Puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690883232460800
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690960600592384
+    m_Localized: DO NOT COLLECT ANY DATA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691153173671936
+    m_Localized: "I\u2019ve read game\u2019s and partners' privacy policies"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691400520167424
+    m_Localized: Analytics & Personalized Ads Data Collection Consent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20699839229128704
+    m_Localized: All data previously collected about you will be removed if you uncheck
+      these boxes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691503859429376
+    m_Localized: "Our app collects, use and share your data with our partners to:\r\n\r\n1.
+      Improve your experience (analytics):\r\n- Analyze gameplay and fix bugs\r\n-
+      Plan future updates\r\n\r\n2. Show relevant ads (only for users 13+):\r\n-
+      Personalize ads based on in-game activity\r\n- Support free access to the game\r\n\r\nList
+      of data we want to collect:\r\n- IP address\r\n- Unique installation-specific
+      ID\r\n- IDFV\r\n- Advertising ID\r\n\r\nYou can disable data collection and
+      personalized ads anytime in game settings, also it removes all data collected
+      about you.\r\n\r\n<b>If you\u2019re younger than 13, please press \u201CDO
+      NOT COLLECT ANY DATA\u201D button. </b>\r\n\r\nOur game's privacy policy and
+      our partners' privacy policies can be found at the following links.\r\n\r\n<link=\"https://gornostaistudio.com/crazypoolpuzzlepolicy\"><color=#1668FF>Privacy
+      Policy</color></link>\r\n\r\n<link=\"https://unity.com/legal/game-player-and-app-user-privacy-policy\"><color=#1668FF>Unity
+      Game Player and App User Privacy Policy</link>\r\n\r\n<link=\"https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/\"><color=#1668FF>ironSource
+      Mobile Privacy Policy</color></link>\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20918478603612160
+    m_Localized: SCROLL DOWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942132892725248
+    m_Localized: Music & Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942202811772928
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942274068803584
+    m_Localized: Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263636008333312
+    m_Localized: PRIVACY POLICY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263732477325312
+    m_Localized: UNITY GAME PLAYER AND APP USER PRIVACY POLICY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738505512710144
+    m_Localized: "No energy. Wait for it to recharge (gradually every hour) or restore
+      half by watching an ad.\r\n\r\nBuy any theme \u2013 and get unlimited energy
+      forever, plus no ads in the game."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738800984649728
+    m_Localized: RESTORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38664484074090496
+    m_Localized: Pick <color=#FFFFFF>ball</color> from stash.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38669534129352704
+    m_Localized: Put <color=#FFFFFF>ball</color> on table by swiping down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38675769771749376
+    m_Localized: Hit the <color=#000000>eight ball</color> by pointing and holding
+      your finger on your <color=#ff0000>new ball</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39047859502903296
+    m_Localized: This is an <color=#ff0000>obstacle</color>. The ball cannot overcome
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39053883408445440
+    m_Localized: It is a destroyer, it allows you to destroy any obstacles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39057269130326016
+    m_Localized: Put <color=#FFFFFF>destroyer</color> on table by swiping down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39062680101253120
+    m_Localized: Destroy the <color=#ff0000>obstacle</color> with the destroyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39361431927844864
+    m_Localized: This is an <color=#FFFF00>electric barrier</color>, it destroys
+      any balls except the eight. Destroyer ball can destroy it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39368206471196672
+    m_Localized: This is a <color=#DE3163>destructible barrier</color>. It can be
+      destroyed by regular balls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39373877920985088
+    m_Localized: This is a <color=#FFFF00>bonus ball</color>, it adds two random
+      balls to the stash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39386495805091840
+    m_Localized: This is an <color=#5C5C5C>exploding ball</color>. It explodes with
+      a delay if it is hit, knocking other balls aside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39409263758077952
+    m_Localized: <color=#0059b8>This ball</color> flips the board 180 degrees and
+      has only 3 uses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417132977025024
+    m_Localized: "In the \"Themes\" section, you can unlock unique visual styles
+      for your game:\r\n\r\n\u2022 <b>Refresh the gameplay</b> \u2013 new themes
+      bring a fresh atmosphere to your experience.\n\r\n\u2022 <b>Unlimited energy</b>
+      \u2013 play without restrictions.\n\r\n\u2022 <b>Ad-free immersion</b> \u2013
+      no more interruptions between levels."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417528898351104
+    m_Localized: 'That''s not all! We are constantly working on improving the game:
+      fixing bugs, adding new balls, levels and themes. If you enjoyed playing, please
+      leave a review - it''s very important to us. Enjoy the game!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39428914487554048
+    m_Localized: Let's quickly go over the rules and move from theory to practice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39429113779908608
+    m_Localized: "The game area is divided into two parts - yours (right) and your
+      opponent's (left).\n\n\u2022 Your balls (on the right side) are always active
+      - you can move them.\n\n\u2022 The opponent's balls (at the left side) are
+      your targets.\n\nDepending on the chosen theme, the colors of the balls change,
+      but the principle remains the same:\n\n\u2022 Active balls (yours) are highlighted
+      with an outline or a special mark.\n\n\u2022 Inactive balls (targets) are initially
+      neutral in color."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430149944963072
+    m_Localized: After painting all the blue balls, you need to complete the level
+      by painting the black eight ball. If you do this ahead of time, the level will
+      be failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430324184739840
+    m_Localized: "At the top of the screen is a stash with extra balls:\n\n\u2022
+      You can take balls from the stash and place them on the playing field.\n\n\u2022
+      The area where new balls appear is marked with a white triangle - make sure
+      it remains free.\n\nYou can enable random balls in the stash in the settings,
+      but some levels will become more difficult or impassable!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208307296202752
+    m_Localized: Performance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208403891023872
+    m_Localized: RESOLUTION SCALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208528650596352
+    m_Localized: The setting will be applied when you exit this menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41226530300948480
+    m_Localized: Oh, let's try again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41290691957551104
+    m_Localized: Keep your finger on the ball to control the power of the impact.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43397966717317120
+    m_Localized: TUTORIALS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398108849696768
+    m_Localized: INTRODUCTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398214604877824
+    m_Localized: GAME RULES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44558016651522048
+    m_Localized: We highly recommend playing with sound on for the best experience!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082059340476416
+    m_Localized: ALLOW PERSONALIZED ADS AND ANALYTICS (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082785357721600
+    m_Localized: ALLOW ANALYTICS ONLY (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088255199899648
+    m_Localized: ALLOW PERSONALIZED ADS (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088478164905984
+    m_Localized: ALLOW ANALYTICS (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52449186798956544
+    m_Localized: PROCEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53602098791116800
+    m_Localized: IRONSOURCE MOBILE PRIVACY POLICY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57883062832787456
+    m_Localized: Support us! Buy new themes and <b>play without ads.</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61535319960907776
+    m_Localized: MANAGE PRIVACY SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613504115306496
+    m_Localized: Are you adult?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613694641565696
+    m_Localized: What is {0}?
+    m_Metadata:
+      m_Items:
+      - rid: 6107710411087544623
+  - m_Id: 61615273495031808
+    m_Localized: SUBMIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61618643412774912
+    m_Localized: INCORRECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61907116967391232
+    m_Localized: If you're younger than 13, please, press "CLOSE" button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939669220782080
+    m_Localized: CHANGE AGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939748988055552
+    m_Localized: You're adult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939873114288128
+    m_Localized: You're a child
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6107710411087544623
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 11152883511296
+        - id: 61613694641565696

@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Strings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Strings
+  m_TableCollectionNameGuidString: 16ca7786ecf6c774e98957a169e1d0ca
+  m_Entries:
+  - m_Id: 1011576532992
+    m_Key: Locale.Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341769600528384
+    m_Key: Locale.Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341895517728768
+    m_Key: Locale.Themes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341985502326784
+    m_Key: Locale.Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342064250384384
+    m_Key: Locale.About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342275899158528
+    m_Key: Locale.LevelCompleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11152883511296
+    m_Key: Locale.BallsUsed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342404001591296
+    m_Key: Locale.Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342609442795520
+    m_Key: Locale.Replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342684495671296
+    m_Key: Loale.MainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342849277292544
+    m_Key: Locale.LevelFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342988175863808
+    m_Key: Locale.ExtraBalls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343512136708096
+    m_Key: Locale.Reason.AllBallsColored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343697877266432
+    m_Key: Locale.Reason.EightBallTouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343932074618880
+    m_Key: Locale.Reason.NoMovesLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344294038859776
+    m_Key: Locale.Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344476092624896
+    m_Key: Locale.Copyright
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344732595286016
+    m_Key: Locale.MuteMusic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344871472885760
+    m_Key: Locale.RandomBallsInStash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345025072492544
+    m_Key: Locale.RandomBallsInStash.Attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345514770067456
+    m_Key: Locale.Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345610161123328
+    m_Key: Locale.Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1346005038067712
+    m_Key: Locale.Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11455905533587456
+    m_Key: Locale.Flip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13783314383564800
+    m_Key: Locale.Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17397945136115712
+    m_Key: Locale.MuteSFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17398055077212160
+    m_Key: Locale.MuteUIClick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018285449179136
+    m_Key: Locale.Theme.Name.Standart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018425685733376
+    m_Key: Locale.Theme.Desc.Standart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048553073569792
+    m_Key: Locale.Theme.Name.SilentMoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048555107807232
+    m_Key: Locale.Theme.Desc.SilentMoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054358837555200
+    m_Key: Locale.Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054442136432640
+    m_Key: Locale.Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054579772518400
+    m_Key: Locale.Selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471026424344576
+    m_Key: Locale.Failure.Reason.NoMovesLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471335582298112
+    m_Key: Locale.Failure.Reason.EightBallTouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589247210680320
+    m_Key: Locale.Theme.Name.MysteriousPink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589457571803136
+    m_Key: Locale.Theme.Desc.MysteriousPink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19941728461582336
+    m_Key: Locale.ShopUnavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20163294449430528
+    m_Key: Locale.GameName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690883232460800
+    m_Key: Locale.OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690960600592384
+    m_Key: Locale.DoNotCollect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691153173671936
+    m_Key: Locale.ConsentToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691400520167424
+    m_Key: Locale.DataCollectionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691503859429376
+    m_Key: Locale.ConsentTerms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20699839229128704
+    m_Key: Locale.Attention.DoNotCollectAnyData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20918478603612160
+    m_Key: Locale.ScrollDown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942132892725248
+    m_Key: Locale.Header.MusicAndSounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942202811772928
+    m_Key: Locale.Header.Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942274068803584
+    m_Key: Locale.Header.Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263636008333312
+    m_Key: Locale.PrivacyPolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263732477325312
+    m_Key: Loale.UnityAnalytics.PrivacyPolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738505512710144
+    m_Key: Locale.EnergyRestoreOfferText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738800984649728
+    m_Key: Locale.Restore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38664484074090496
+    m_Key: Locale.InteractiveTutorial.1.PickBallFromStash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38669534129352704
+    m_Key: Locale.InteractiveTutorial.1.PutBallOnTable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38675769771749376
+    m_Key: Locale.InteractiveTutorial.1.HitEightBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39047859502903296
+    m_Key: Locale.InteractiveTutorial.17.Barrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39053883408445440
+    m_Key: Locale.InteractiveTutorial.33.Destroyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39057269130326016
+    m_Key: Locale.InteractiveTutorial.33.PutDestroyerOnBoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39062680101253120
+    m_Key: Locale.InteractiveTutorial.33.DestroyBarrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39361431927844864
+    m_Key: Locale.InteractiveTutorial.43.ElectricBarrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39368206471196672
+    m_Key: Locale.InteractiveTutorial.44.HealthBarrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39373877920985088
+    m_Key: Locale.InteractiveTutorial.59.BonusBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39386495805091840
+    m_Key: Locale.InteractiveTutorial.73.ExplosiveBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39409263758077952
+    m_Key: Locale.InteractiveTutorial.88.BoardFlipper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415271922397184
+    m_Key: Locale.Tutorial.Introduction.Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415568849760256
+    m_Key: Locale.Tutorial.Introduction.Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417132977025024
+    m_Key: Locale.Tutorial.Introduction.Themes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417528898351104
+    m_Key: Locale.Tutorial.Introduction.Afterword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39428914487554048
+    m_Key: Locale.Tutorial.GameRules.Rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39429113779908608
+    m_Key: Locale.Tutorial.GameRules.GameBoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430149944963072
+    m_Key: Locale.Tutorial.GameRules.Eight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430324184739840
+    m_Key: Locale.Tutorial.GameRules.Stash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208307296202752
+    m_Key: Locale.Performance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208403891023872
+    m_Key: Locale.ResolutionScale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208528650596352
+    m_Key: Locale.ResolutionScale.Attention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41226530300948480
+    m_Key: Locale.InteractiveTutorial.StepBackDefaultMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41290691957551104
+    m_Key: Locale.InteractiveTutorial.FingerPower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43397966717317120
+    m_Key: Locale.TextTutorials.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398108849696768
+    m_Key: Locale.TextTutorials.Introduction.Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398214604877824
+    m_Key: Locale.TextTutorials.GameRules.Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44558016651522048
+    m_Key: Locale.Tutorial.Introduction.Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082059340476416
+    m_Key: Locale.AllowAll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082785357721600
+    m_Key: Locale.AllowAnalytics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088255199899648
+    m_Key: Locale.AllowPersonalizedAdsToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088478164905984
+    m_Key: Locale.AllowAnalyticsToggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52449186798956544
+    m_Key: Locale.Proceed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53602098791116800
+    m_Key: Locale.IronSource.PrivacyPolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57883062832787456
+    m_Key: Locale.AdsFreeNote.Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61535319960907776
+    m_Key: Locale.ManagePrivacySettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613504115306496
+    m_Key: Locale.AreYouAdult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613694641565696
+    m_Key: Locale.WhatIsMath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61615273495031808
+    m_Key: Locale.Submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61618643412774912
+    m_Key: Locale.Incorrect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61907116967391232
+    m_Key: Locale.NoteForYoung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939669220782080
+    m_Key: Locale.ChangeAge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939748988055552
+    m_Key: Locale.YouAreAdult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939873114288128
+    m_Key: Locale.YouAreAChild
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6107710411087544594
+  references:
+    version: 2
+    RefIds:
+    - rid: 6107710411087544594
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736701605292

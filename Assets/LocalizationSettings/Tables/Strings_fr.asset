@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Strings_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 16ca7786ecf6c774e98957a169e1d0ca, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6107710411087544624
+  m_TableData:
+  - m_Id: 1011576532992
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11152883511296
+    m_Localized: "Balles utilis\xE9es {0}"
+    m_Metadata:
+      m_Items:
+      - rid: 6107710411087544624
+  - m_Id: 1341769600528384
+    m_Localized: NIVEAUX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341895517728768
+    m_Localized: "TH\xC8MES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1341985502326784
+    m_Localized: "PARAM\xC8TRES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342064250384384
+    m_Localized: AU SUJET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342275899158528
+    m_Localized: "NIVEAU TERMIN\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342404001591296
+    m_Localized: SUIVANT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342609442795520
+    m_Localized: REDIFFUSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342684495671296
+    m_Localized: MENU PRINCIPAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342849277292544
+    m_Localized: "NIVEAU \xC9CHOU\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342988175863808
+    m_Localized: "2 BALLES SUPPL\xC9MENTAIRES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343512136708096
+    m_Localized: "Toutes les boules \xE9taient color\xE9es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343697877266432
+    m_Localized: "Le huit n'a pas \xE9t\xE9 peint en dernier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1343932074618880
+    m_Localized: Il n'y a plus de mouvements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344294038859776
+    m_Localized: SOUTIEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344476092624896
+    m_Localized: "Gornostai Studio, 2024, \r\nTous droits r\xE9serv\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344732595286016
+    m_Localized: "\xC9TOUFFER LA MUSIQUE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1344871472885760
+    m_Localized: "BOULES AL\xC9ATOIRES DANS LA CACHETTE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345025072492544
+    m_Localized: Attention! Certains niveaux peuvent devenir impraticables
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345514770067456
+    m_Localized: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1345610161123328
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1346005038067712
+    m_Localized: Force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11455905533587456
+    m_Localized: COUP DE PLANCHE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13783314383564800
+    m_Localized: FERMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17397945136115712
+    m_Localized: "\xC9TOUFFER LES SONS"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17398055077212160
+    m_Localized: COUPER LE SON DU CLIC DANS L'INTERFACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018285449179136
+    m_Localized: STANDARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18018425685733376
+    m_Localized: Comprend de la musique de fond, une table de jeu, un huit, une boule
+      peinte et non peinte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048553073569792
+    m_Localized: LUNE SILENCIEUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18048555107807232
+    m_Localized: Comprend de la musique de fond, une table de jeu, un huit, une boule
+      peinte et non peinte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054358837555200
+    m_Localized: "ACQU\xC9RIR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054442136432640
+    m_Localized: CHOISIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18054579772518400
+    m_Localized: "S\xC9LECTIONN\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471026424344576
+    m_Localized: Il n'y a plus de mouvements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18471335582298112
+    m_Localized: "Le ballon-huit n'a pas \xE9t\xE9 peint par l'un des derniers"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589247210680320
+    m_Localized: "VIOLET MYST\xC9RIEUX"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19589457571803136
+    m_Localized: Comprend de la musique de fond, une table de jeu, un huit, une boule
+      peinte et non peinte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19941728461582336
+    m_Localized: Le magasin est maintenant disponible. Veuillez revenir plus tard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20163294449430528
+    m_Localized: Crazy Pool Puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690883232460800
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20690960600592384
+    m_Localized: "NE PAS COLLECTER DE DONN\xC9ES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691153173671936
+    m_Localized: "J'ai pris connaissance de la politique de confidentialit\xE9 du
+      jeu et des partenaires"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691400520167424
+    m_Localized: "Consentement \xE0 la collecte de donn\xE9es analytiques et \xE0
+      la diffusion de publicit\xE9s personnalis\xE9es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20691503859429376
+    m_Localized: "Notre application collecte, utilise et partage vos donn\xE9es avec
+      nos partenaires pour :\r\n\r\n1. Am\xE9liorer votre exp\xE9rience de jeu (analytique)
+      :\r\n-Analyser le gameplay et corriger les bugs\r\n\r-Planifier les futures
+      mises \xE0 jour\r\n\r\n2. Afficher des publicit\xE9s personnalis\xE9es (uniquement
+      pour les utilisateurs de 13 ans et plus) :\r\n-Personnalisation des publicit\xE9s
+      bas\xE9e sur l'activit\xE9 en jeu\r\n-Maintenir l'acc\xE8s gratuit au jeu\r\n\r\nListe
+      des donn\xE9es que nous souhaitons collecter :\r\n-Adresse IP\r\n\r-Identifiant
+      unique d'installation\r\n\r-IDFV\r\n\r-Identifiant publicitaire\r\n\r\nVous
+      pouvez d\xE9sactiver la collecte de donn\xE9es et les publicit\xE9s personnalis\xE9es
+      \xE0 tout moment dans les param\xE8tres du jeu, cela supprimera \xE9galement
+      toutes les donn\xE9es vous concernant collect\xE9es.\r\n\r\n<b>Si vous avez
+      moins de 13 ans, cliquez sur le bouton \xAB NE RIEN COLLECTER \xBB.</b>\r\n\r\nVous
+      pouvez consulter la politique de confidentialit\xE9 de notre jeu et celles
+      de nos partenaires via les liens suivants.\r\n\r\n<link=\"https://gornostaistudio.com/crazypoolpuzzlepolicy\"><color=#1668FF>Politique
+      de confidentialit\xE9</color></link>\r\n\r\n<link=\"https://unity.com/legal/game-player-and-app-user-privacy-policy\"><color=#1668FF>Politique
+      de confidentialit\xE9 du joueur et de l'utilisateur d'application Unity</link>\r\n\r\n<link=\"https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/\"><color=#1668FF>Politique
+      de confidentialit\xE9 ironSource Mobile</color></link>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20699839229128704
+    m_Localized: "Toutes les donn\xE9es vous concernant pr\xE9c\xE9demment collect\xE9es
+      seront supprim\xE9es si vous d\xE9sactivez ces options."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20918478603612160
+    m_Localized: "FAITES D\xC9FILER VERS LE BAS"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942132892725248
+    m_Localized: Musique et sons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942202811772928
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942274068803584
+    m_Localized: "Intimit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263636008333312
+    m_Localized: "POLITIQUE DE CONFIDENTIALIT\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21263732477325312
+    m_Localized: "POLITIQUE DE CONFIDENTIALIT\xC9 DU JOUEUR ET DE L'UTILISATEUR DE
+      L'APPLICATION UNITY"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738505512710144
+    m_Localized: "Plus d'\xE9nergie. Attendez qu'elle se recharge (progressivement
+      chaque heure) ou r\xE9cup\xE9rez la moiti\xE9 en regardant une publicit\xE9.\r\n\r\nAchetez
+      n'importe quel th\xE8me \u2013 et obtenez une \xE9nergie illimit\xE9e \xE0
+      vie, ainsi que la suppression de toutes les publicit\xE9s dans le jeu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26738800984649728
+    m_Localized: RESTAURER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38664484074090496
+    m_Localized: Prenez la <color=#FFFFFF>bille</color> dans la cachette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38669534129352704
+    m_Localized: Placez la <color=#FFFFFF>bille</color> sur la table en glissant
+      vers le bas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38675769771749376
+    m_Localized: Touchez la <color=#000000>bille noire</color> en visant et maintenant
+      votre doigt sur votre <color=#ff0000>nouvelle bille</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39047859502903296
+    m_Localized: Ceci est un <color=#ff0000>obstacle</color>. La bille ne peut pas
+      le franchir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39053883408445440
+    m_Localized: "C'est un destructeur : il vous permet d'\xE9liminer tous les obstacles."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39057269130326016
+    m_Localized: Placez le <color=#FFFFFF>destructeur</color> sur la table en glissant
+      vers le bas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39062680101253120
+    m_Localized: "D\xE9truisez l'<color=#ff0000>obstacle</color> avec le destructeur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39361431927844864
+    m_Localized: "Ceci est une <color=#FFFF00>barri\xE8re \xE9lectrique</color> :
+      elle d\xE9truit toutes les billes sauf la noire. La bille destructrice peut
+      la d\xE9truire."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39368206471196672
+    m_Localized: "Ceci est une <color=#DE3163>barri\xE8re destructible</color>. Elle
+      peut \xEAtre d\xE9truite par des billes normales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39373877920985088
+    m_Localized: "Voici une <color=#FFFF00>bille bonus</color> : elle ajoute deux
+      billes al\xE9atoires \xE0 votre r\xE9serve."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39386495805091840
+    m_Localized: "Ceci est une <color=#5C5C5C>bille explosive</color>. Elle explose
+      avec un d\xE9lai apr\xE8s impact, projetant les autres billes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39409263758077952
+    m_Localized: "<color=#0059b8>Cette bille</color> retourne le plateau de 180\xB0
+      et n'a que 3 utilisations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415271922397184
+    m_Localized: "Bienvenue dans notre jeu de r\xE9flexion!\r                                                                 
+      Nous l'avons con\xE7u pour vous permettre de vous d\xE9tendre et d'\xE9chapper
+      aux tracas du quotidien. Nous esp\xE9rons que vous l'aimerez ! Voici un aper\xE7u
+      des principales fonctionnalit\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39415568849760256
+    m_Localized: "Le jeu utilise un syst\xE8me d'\xE9nergie :\r\n\r\n\u2022 Chaque
+      niveau lanc\xE9 consomme une quantit\xE9 d'\xE9nergie d\xE9termin\xE9e.\r\n\n\u2022
+      Si votre \xE9nergie est \xE9puis\xE9e, vous pouvez en r\xE9cup\xE9rer la moiti\xE9
+      du maximum en regardant une publicit\xE9.\r\n\n\u2022 L'\xE9nergie se r\xE9g\xE9n\xE8re
+      aussi progressivement - un peu chaque heure r\xE9elle.\r\n\n\u2022 Red\xE9marrer
+      un niveau ne consomme pas d'\xE9nergie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417132977025024
+    m_Localized: "Dans la section \xAB Th\xE8mes \xBB, vous pouvez d\xE9bloquer des
+      styles visuels uniques pour votre jeu :\r\n\r\n\u2022 <b>Rafra\xEEchissez le
+      gameplay</b> \u2013 de nouveaux th\xE8mes apportent une atmosph\xE8re in\xE9dite.\r\n\n\u2022
+      <b>\xC9nergie illimit\xE9e</b> \u2013 jouez sans restrictions.\r\n\n\u2022
+      <b>Immersion sans pubs</b> \u2013 fini les interruptions entre les niveaux."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39417528898351104
+    m_Localized: "Ce n'est pas tout ! Nous travaillons constamment \xE0 am\xE9liorer
+      le jeu : correction de bugs, ajout de nouvelles balles, de niveaux et de th\xE8mes.
+      Si vous avez appr\xE9ci\xE9 le jeu, veuillez laisser un avis \u2013 c\u2019est
+      tr\xE8s important pour nous. Profitez bien du jeu !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39428914487554048
+    m_Localized: "Passons rapidement en revue les r\xE8gles et mettons la th\xE9orie
+      en pratique!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39429113779908608
+    m_Localized: "La zone de jeu est divis\xE9e en deux parties : la v\xF4tre (\xE0
+      droite) et celle de votre adversaire (\xE0 gauche).\r\n\r\n\u2022 Vos balles
+      (du c\xF4t\xE9 droit) sont toujours actives \u2013 vous pouvez les d\xE9placer.\r\n\r\n\u2022
+      Les balles de l\u2019adversaire (du c\xF4t\xE9 gauche) sont vos cibles.\r\n\r\nSelon
+      le th\xE8me choisi, les couleurs des balles changent, mais le principe reste
+      le m\xEAme :\r\n\r\n\u2022 Les balles actives (les v\xF4tres) sont mises en
+      \xE9vidence par un contour ou un marqueur sp\xE9cial.\r\n\r\n\u2022 Les balles
+      inactives (les cibles) sont initialement de couleur neutre.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430149944963072
+    m_Localized: "Apr\xE8s avoir peint toutes les boules bleues, vous devez terminer
+      le niveau en peignant la boule noire num\xE9ro huit. Si vous le faites trop
+      t\xF4t, le niveau sera \xE9chou\xE9.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39430324184739840
+    m_Localized: "En haut de l'\xE9cran se trouve une r\xE9serve avec des balles
+      suppl\xE9mentaires :\r\n\r\n\u2022 Vous pouvez prendre des balles dans la r\xE9serve
+      et les placer sur le terrain de jeu.\r\n\r\n\u2022 La zone o\xF9 apparaissent
+      les nouvelles balles est marqu\xE9e par un triangle blanc \u2013 assurez-vous
+      qu\u2019elle reste libre.\r\n\r\nVous pouvez activer les balles al\xE9atoires
+      dans la r\xE9serve dans les param\xE8tres, mais certains niveaux deviendront
+      plus difficiles, voire impossibles \xE0 passer !\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208307296202752
+    m_Localized: Performance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208403891023872
+    m_Localized: "MISE \xC0 L'\xC9CHELLE DE LA R\xC9SOLUTION"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40208528650596352
+    m_Localized: "Le r\xE9glage sera appliqu\xE9 lorsque vous quitterez ce menu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41226530300948480
+    m_Localized: Oh, essayons encore une fois
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41290691957551104
+    m_Localized: "Maintenez votre doigt sur la balle pour contr\xF4ler la force de
+      l'impact."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43397966717317120
+    m_Localized: FORMATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398108849696768
+    m_Localized: INTRODUCTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43398214604877824
+    m_Localized: "R\xC8GLE DU JEU"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44558016651522048
+    m_Localized: "Nous vous recommandons fortement de jouer avec le son inclus pour
+      une meilleure exp\xE9rience!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082059340476416
+    m_Localized: "AUTORISER LA PUBLICIT\xC9 ET L'ANALYSE PERSONNALIS\xC9ES (13+)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52082785357721600
+    m_Localized: AUTORISER UNIQUEMENT L'ANALYSE (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088255199899648
+    m_Localized: "AUTORISER LA PUBLICIT\xC9 PERSONNALIS\xC9E (13+)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52088478164905984
+    m_Localized: AUTORISER L'ANALYSE (13+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52449186798956544
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53602098791116800
+    m_Localized: "POLITIQUE DE CONFIDENTIALIT\xC9 D'IRONSOURCE MOBILE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57883062832787456
+    m_Localized: "Soutenez-nous ! Achetez de nouveaux th\xE8mes et <b>jouez sans
+      publicit\xE9.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61535319960907776
+    m_Localized: "G\xC9RER LES PARAM\xC8TRES DE CONFIDENTIALIT\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613504115306496
+    m_Localized: "\xCAtes-vous adulte ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61613694641565696
+    m_Localized: "Qu\u2019est-ce que {0} ?"
+    m_Metadata:
+      m_Items:
+      - rid: 6107710411087544624
+  - m_Id: 61615273495031808
+    m_Localized: SOUMETTRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61618643412774912
+    m_Localized: INCORRECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61907116967391232
+    m_Localized: "Si vous avez moins de 13 ans, veuillez appuyer sur le bouton \xAB
+      FERMER \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939669220782080
+    m_Localized: "CHANGER L\u2019\xC2GE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939748988055552
+    m_Localized: "Vous \xEAtes adulte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61939873114288128
+    m_Localized: "Vous \xEAtes un enfant"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6107710411087544624
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 11152883511296
+        - id: 61613694641565696

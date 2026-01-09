@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2040716868301167075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373008716857196112}
+  - component: {fileID: 4989479559596526204}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373008716857196112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040716868301167075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4989479559596526204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040716868301167075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a39ef1569a7aca4f8e35f17c07756d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tutorials:
+  - UniqueName: Introduction
+    IsPermanent: 0
+    Chapters:
+    - UniqueName: Welcome
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39415271922397184
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 443295269cb55a64da5714ccac6d6c5a, type: 3}
+    - UniqueName: Volume
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 44558016651522048
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: edc11ecd45f25af48841e8981494fb6e, type: 3}
+    - UniqueName: Energy
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39415568849760256
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 1168d8fb8771b144e88335fb9cd851dc, type: 3}
+    - UniqueName: Themes
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39417132977025024
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 8a2dfbf2f260a5a428d7a4b074a45271, type: 3}
+    - UniqueName: Afterword
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39417528898351104
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 06e1dd3cace7e3043a6f44464ada7e8f, type: 3}
+  - UniqueName: GameRules
+    IsPermanent: 1
+    Chapters:
+    - UniqueName: Rules
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39428914487554048
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 1a08e9ba47e870b47b13cb9abc49388f, type: 3}
+    - UniqueName: GameBoard
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39429113779908608
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: fe6ca1a3b4f1e7d4992e6831d31711e6, type: 3}
+    - UniqueName: Eight
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39430149944963072
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 9520eb3c60faa3745b1638fee35ec7a9, type: 3}
+    - UniqueName: Stash
+      Information:
+        m_TableReference:
+          m_TableCollectionName: GUID:16ca7786ecf6c774e98957a169e1d0ca
+        m_TableEntryReference:
+          m_KeyId: 39430324184739840
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      AccompanyingImage: {fileID: 21300000, guid: 2cd24c2eda480b94891a7818213cd740, type: 3}
+  references:
+    version: 2
+    RefIds: []
