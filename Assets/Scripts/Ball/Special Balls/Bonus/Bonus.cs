@@ -5,14 +5,13 @@ using WeightedRandomization;
 
 namespace SpecialBalls
 {
-    [RequireComponent(typeof(Rigidbody))]
     /*
      * Code here is temporary disabled because it references old Audio system.
      * Pending refactoring.
      */
+    [RequireComponent(typeof(Rigidbody), typeof(BallController))]
     public class Bonus : MonoBehaviour, ISpecialBall
     {
-        [SerializeField] private BallController _controller;
         [SerializeField] private int _bonusAmount = 2;
         [SerializeField, Range(0f, 5f)] private float _jumpSpeed = 0.1f;
         [SerializeField, Range(0f, 5f)] private float _scaleSpeed = 0.2f;
@@ -24,32 +23,21 @@ namespace SpecialBalls
         private Stash _stash;
         private bool _isTriggered;
 
-        public BallController Controller => _controller;
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = false;
+        public bool CanBeMovedByMouse { get; private set; } = false;
+        public bool CanCountAsWinnable { get; private set; } = true;
 
         private void Start()
         {
             _rb = GetComponent<Rigidbody>();
             _stash = FindFirstObjectByType<Stash>();
+            Controller = GetComponent<BallController>();
 
             if (_stash == null) throw new NullReferenceException("Bonus ball can not find any stash elements on scene");
         }
 
         private void OnDestroy() => transform.DOKill();
-
-        public bool CanBeColoured()
-        {
-            return false;
-        }
-
-        public bool CanBeMovedByMouse()
-        {
-            return false;
-        }
-
-        public bool CanCountAsWinnable()
-        {
-            return true;
-        }
 
         public void HandleCollision(Collision collision)
         {

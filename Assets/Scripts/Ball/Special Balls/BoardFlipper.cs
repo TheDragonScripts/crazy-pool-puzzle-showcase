@@ -10,51 +10,38 @@ namespace SpecialBalls
      * Code here is temporary disabled because it references old UI system.
      * Pending refactoring.
      */
-    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(Rigidbody), typeof(BallController), typeof(BallAppearance))]
     public class BoardFlipper : MonoBehaviour, ISpecialBall
     {
-        [Header("References")]
-        [SerializeField] private BallController _ballController;
-        [SerializeField] private BallAppearance _ballApperance;
-        [Space(5f)]
         [Header("Settings")]
         [SerializeField] private float _cooldown = 3f;
         [SerializeField] private int _lifes = 3;
 
+        private BallAppearance _ballApperance;
         private IGlobalGameState _globalGameState;
         private Rigidbody _rb;
         private bool _isTriggered;
         //private FlipTitle _flipTitle;
         private GameBoard _gameBoard;
 
-        public BallController Controller => _ballController;
-
-        /*private void OnDisable() => _flipTitle.OnColorChanged -= FlipBoard;
-        private void OnDestroy() => _flipTitle.OnColorChanged -= FlipBoard;*/
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = false;
+        public bool CanBeMovedByMouse { get; private set; } = false;
+        public bool CanCountAsWinnable { get; private set; } = true;
 
         private void Start()
         {
-            _globalGameState = GameEntryPoint.Instance?.GlobalGameState;
+            _ballApperance = GetComponent<BallAppearance>();
+            _globalGameState = GameEntryPoint.Instance.GlobalGameState;
             _rb = GetComponent<Rigidbody>();
             _gameBoard = FindAnyObjectByType<GameBoard>();
+            Controller = GetComponent<BallController>();
             //_flipTitle = UIManager.Instance.GetActionTitleByName("FlipTitle") as FlipTitle;
             //_flipTitle.OnColorChanged += FlipBoard;
         }
 
-        public bool CanBeColoured()
-        {
-            return false;
-        }
-
-        public bool CanBeMovedByMouse()
-        {
-            return false;
-        }
-
-        public bool CanCountAsWinnable()
-        {
-            return true;
-        }
+        /*private void OnDisable() => _flipTitle.OnColorChanged -= FlipBoard;
+        private void OnDestroy() => _flipTitle.OnColorChanged -= FlipBoard;*/
 
         public void HandleCollision(Collision collision)
         {

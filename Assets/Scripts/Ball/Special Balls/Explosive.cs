@@ -7,38 +7,33 @@ namespace SpecialBalls
      * Code here is temporary disabled because it references old Audio system.
      * Pending refactoring.
      */
+    [RequireComponent(typeof(BallController), typeof(MeshRenderer))]
     public class Explosive : MonoBehaviour, ISpecialBall
     {
-        [SerializeField] private BallController _controller;
-        [SerializeField] private MeshRenderer _meshRenderer;
-        [SerializeField] private GameObject _patricles;
+        [SerializeField] private GameObject _particles;
         [SerializeField] private float _explosionRaidus = 5f;
         [SerializeField] private float _explosionForce = 500f;
         [SerializeField] private float _flashingFrequency = 0.5f;
         [SerializeField] private float _explodeFlashingFrequency = 0.05f;
+
+        private MeshRenderer _meshRenderer;
         private float _timeToBoom = 3f;
         private bool _isTriggered;
 
-        public BallController Controller => _controller;
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = false;
+        public bool CanBeMovedByMouse { get; private set; } = false;
+        public bool CanCountAsWinnable { get; private set; } = true;
 
-        private void Start() => StartCoroutine(Flashing());
+        private void Start()
+        {
+            Controller = GetComponent<BallController>();
+            _meshRenderer = GetComponent<MeshRenderer>();
+            StartCoroutine(Flashing());
+        }
+
         private void OnDisable() => StopAllCoroutines();
         private void OnDestroy() => StopAllCoroutines();
-
-        public bool CanBeColoured()
-        {
-            return false;
-        }
-
-        public bool CanBeMovedByMouse()
-        {
-            return false;
-        }
-
-        public bool CanCountAsWinnable()
-        {
-            return true;
-        }
 
         public void HandleCollision(Collision collision)
         {
@@ -60,7 +55,7 @@ namespace SpecialBalls
 
             //AudioManager.Instance.ExplosionSFX.CopyAndPlay(transform.position);
 
-            Instantiate(_patricles, transform.position, Quaternion.identity);
+            Instantiate(_particles, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 

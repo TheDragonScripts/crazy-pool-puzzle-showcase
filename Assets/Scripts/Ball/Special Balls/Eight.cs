@@ -2,24 +2,23 @@ using UnityEngine;
 
 namespace SpecialBalls
 {
+    [RequireComponent(typeof(BallController))]
     public class Eight : MonoBehaviour, ISpecialBall
     {
-        [SerializeField] private BallController _controller;
-        public BallController Controller => _controller;
-
-        public bool CanBeColoured()
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = true;
+        public bool CanBeMovedByMouse { get; private set; } = false;
+        public bool CanCountAsWinnable
         {
-            return true;
+            get
+            {
+                return Controller.Coloring == BallColoring.Coloured;
+            }
         }
 
-        public bool CanBeMovedByMouse()
+        private void Start()
         {
-            return false;
-        }
-
-        public bool CanCountAsWinnable()
-        {
-            return _controller.Coloring == BallColoring.Coloured;
+            Controller = GetComponent<BallController>();
         }
 
         public void HandleCollision(Collision collision) { }

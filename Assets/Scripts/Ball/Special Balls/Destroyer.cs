@@ -3,37 +3,42 @@ using UnityEngine;
 
 namespace SpecialBalls
 {
-    [RequireComponent(typeof(DissolvableObject))]
+    [RequireComponent(typeof(DissolvableObject), typeof(BallController), typeof(BallAppearance))]
+    [RequireComponent(typeof(Rigidbody), typeof(Collider))]
     public class Destroyer : MonoBehaviour, ISpecialBall
     {
-        [SerializeField] private BallController _ballController;
-        [SerializeField] private BallAppearance _ballAppearance;
-        [SerializeField] private DissolvableObject _dissolvableObject;
-        [SerializeField] private Rigidbody _rigidBody;
-        [SerializeField] private Collider _collider;
+        private BallAppearance _ballAppearance;
+        private DissolvableObject _dissolvableObject;
+        private Rigidbody _rigidBody;
+        private Collider _collider;
 
-        public BallController Controller => _ballController;
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = false;
 
-        public bool CanBeColoured()
+        public bool CanBeMovedByMouse
         {
-            return false;
+            get
+            {
+                return Controller.GameStatus == BallGameStatus.OnBoard && Controller.Side == BallSide.Red;
+            }
         }
 
-        public bool CanBeMovedByMouse()
-        {
-            return _ballController.GameStatus == BallGameStatus.OnBoard && _ballController.Side == BallSide.Red;
-        }
+        public bool CanCountAsWinnable { get; private set; } = true;
 
-        public bool CanCountAsWinnable()
+        private void Start()
         {
-            return true;
+            Controller = GetComponent<BallController>();
+            _ballAppearance = GetComponent<BallAppearance>();
+            _dissolvableObject = GetComponent<DissolvableObject>();
+            _rigidBody = GetComponent<Rigidbody>();
+            _collider = GetComponent<Collider>();
         }
 
         public void HandleCollision(Collision collision)
         {
             IBarrier barrier = collision.gameObject.GetComponent<IBarrier>();
             if (barrier == null) return;
-            GameEntryPoint.Instance.BallsRegistry.RemoveBall(_ballController);
+            GameEntryPoint.Instance.BallsRegistry.RemoveBall(Controller);
             barrier.DestoryBarrier();
             _ballAppearance.ForceDisableShadows();
             _dissolvableObject.StartDissolvableDestory();

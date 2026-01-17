@@ -68,11 +68,11 @@ public class BallController : MonoBehaviour
         HandleSoundOnCollision(collision);
     }
 
-    public bool CanCountAsWinnable() => SpeicalBall.CanCountAsWinnable();
+    public bool CanCountAsWinnable() => SpeicalBall.CanCountAsWinnable;
 
     public bool CanBeMovedByMouse()
     {
-        return SpeicalBall.CanBeMovedByMouse();
+        return SpeicalBall.CanBeMovedByMouse;
     }
 
     public void DropVelocity()
@@ -99,7 +99,7 @@ public class BallController : MonoBehaviour
 
     public void SetBallColoring(BallColoring coloring)
     {
-        if (!SpeicalBall.CanBeColoured() || _coloring == coloring) return;
+        if (!SpeicalBall.CanBeColoured || _coloring == coloring) return;
         _coloring = coloring;
         _appearance.SetMaterial(coloring);
         if (_coloring == BallColoring.Coloured)

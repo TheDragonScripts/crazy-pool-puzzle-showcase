@@ -2,31 +2,38 @@ using UnityEngine;
 
 namespace SpecialBalls
 {
+    [RequireComponent(typeof(BallController))]
     public class Simple : MonoBehaviour, ISpecialBall
     {
-        [SerializeField] private BallController _controller;
-        public BallController Controller => _controller;
+        public BallController Controller { get; private set; }
+        public bool CanBeColoured { get; private set; } = true;
 
-        public bool CanBeColoured()
+        public bool CanBeMovedByMouse
         {
-            return true;
+            get
+            {
+                return Controller.GameStatus == BallGameStatus.OnBoard &&
+                    Controller.Coloring == BallColoring.Coloured &&
+                    Controller.Side == BallSide.Red;
+            }
         }
 
-        public bool CanBeMovedByMouse()
+        public bool CanCountAsWinnable
         {
-            return _controller.GameStatus == BallGameStatus.OnBoard && 
-                _controller.Coloring == BallColoring.Coloured &&
-                _controller.Side == BallSide.Red;
+            get
+            {
+                return Controller.Coloring == BallColoring.Coloured;
+            }
         }
 
-        public bool CanCountAsWinnable()
+        private void Start()
         {
-            return _controller.Coloring == BallColoring.Coloured;
+            Controller = GetComponent<BallController>();
         }
 
         public void HandleCollision(Collision collision)
         {
-            if (_controller.Coloring == BallColoring.Uncoloured) return;
+            if (Controller.Coloring == BallColoring.Uncoloured) return;
             BallController ball = collision.gameObject.GetComponent<BallController>();
             if (ball == null) return;
             ball.SetBallColoring(BallColoring.Coloured);
