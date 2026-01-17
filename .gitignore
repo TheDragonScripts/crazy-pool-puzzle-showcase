@@ -21,6 +21,7 @@
 /Assets/Plugins/Android/FirebaseApp.androidlib/*
 /Assets/GoogleMobileAds/Resources/*
 /Assets/Scripts/ISIntegration/ISIntegrationManager.cs*
+/Assets/StreamingAssets/*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -82,3 +83,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
