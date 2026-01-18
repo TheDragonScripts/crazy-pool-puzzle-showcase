@@ -3,22 +3,23 @@ using UnityEngine;
 [RequireComponent (typeof(MeshRenderer))]
 public class DissolvableObject : MonoBehaviour
 {
-    protected MeshRenderer _meshRenderer;
     [SerializeField] protected float _dissolveSpeed = 0.5f;
     [SerializeField] protected float _startDissolve = 1f;
     [SerializeField] protected float _targetDissolve = -1f;
+
     protected float _currentDissolve;
     protected bool _isDissolve;
+    protected MeshRenderer _meshRenderer;
 
     public bool IsDissolve => _isDissolve;
 
-    protected void Start()
+    protected virtual void Start()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
         SetDissolve(_startDissolve);
     }
 
-    protected void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if (_isDissolve)
         {
@@ -36,5 +37,5 @@ public class DissolvableObject : MonoBehaviour
 
     public void StartDissolvableDestory() => _isDissolve = true;
 
-    protected void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_CutoffHeightF", dissolve);
+    protected virtual void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_CutoffHeightF", dissolve);
 }

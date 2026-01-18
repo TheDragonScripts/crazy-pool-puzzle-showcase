@@ -34,9 +34,8 @@ public class ElectroBarrier : MonoBehaviour, IBarrier
 
     public void DestoryBarrier()
     {
-        if (_collider is MeshCollider)
+        if (_collider is MeshCollider meshCollider)
         {
-            MeshCollider meshCollider = (MeshCollider)_collider;
             meshCollider.convex = true;
         }
         _collider.isTrigger = true;

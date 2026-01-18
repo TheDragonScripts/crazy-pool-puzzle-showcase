@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class ElectroDissolvableObject : DissolvableObject
 {
-    protected new void Start()
+    protected override void Start()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
         SetDissolve(0f);
     }
 
-    protected new void FixedUpdate()
+    protected override void FixedUpdate()
     {
         if (_isDissolve)
         {
@@ -24,5 +24,5 @@ public class ElectroDissolvableObject : DissolvableObject
         }
     }
 
-    protected new void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_Invisibility", dissolve);
+    protected override void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_Invisibility", dissolve);
 }

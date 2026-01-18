@@ -10,29 +10,29 @@ using UnityEngine;
  */
 public class HealthBarrier : MonoBehaviour, IBarrier
 {
-    [SerializeField] protected int _health = 2;
-    [SerializeField] protected float _targetCutoffHeight = 1.5f;
-    [SerializeField] protected float _startCutoffHeight = 2f;
-    [SerializeField] protected float _dissolveSpeed = 2f;
+    [SerializeField] private int _health = 2;
+    [SerializeField] private float _targetCutoffHeight = 1.5f;
+    [SerializeField] private float _startCutoffHeight = 2f;
+    [SerializeField] private float _dissolveSpeed = 2f;
 
-    protected DissolvableObject _dissolvableObject;
-    protected Collider _collider;
-    protected MeshRenderer _meshRenderer;
+    private DissolvableObject _dissolvableObject;
+    private Collider _collider;
+    private MeshRenderer _meshRenderer;
 
-    protected DissolveAnimStatus _currentStatus = DissolveAnimStatus.Idle;
-    protected float _currentDissolve = 2f;
-    protected bool _destroyed;
+    private DissolveAnimStatus _currentStatus = DissolveAnimStatus.Idle;
+    private float _currentDissolve = 2f;
+    private bool _destroyed;
 
-    protected enum DissolveAnimStatus { Forward = -1, Back = 1, Idle = 0 }
+    private enum DissolveAnimStatus { Forward = -1, Back = 1, Idle = 0 }
 
-    protected void Start()
+    private void Start()
     {
         _collider = GetComponent<Collider>();
         _dissolvableObject = GetComponent<DissolvableObject>();
         _meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    protected void FixedUpdate()
+    private void FixedUpdate()
     {
         if (_currentStatus == DissolveAnimStatus.Forward && !_destroyed)
         {
@@ -54,7 +54,7 @@ public class HealthBarrier : MonoBehaviour, IBarrier
         }
     }
 
-    protected void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision == null || collision.collider == null ||
             collision.gameObject.GetComponent<BallController>() == null) return;
@@ -75,9 +75,8 @@ public class HealthBarrier : MonoBehaviour, IBarrier
         if (_destroyed) return;
         _destroyed = true;
 
-        if (_collider is MeshCollider)
+        if (_collider is MeshCollider meshCollider)
         {
-            MeshCollider meshCollider = (MeshCollider)_collider;
             meshCollider.convex = true;
         }
         _collider.isTrigger = true;
@@ -85,5 +84,5 @@ public class HealthBarrier : MonoBehaviour, IBarrier
         //AudioManager.Instance.DissolutionSFX.CopyAndPlay(transform.position);
     }
 
-    protected void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_CutoffHeightF", dissolve);
+    private void SetDissolve(float dissolve) => _meshRenderer.material.SetFloat("_CutoffHeightF", dissolve);
 }
